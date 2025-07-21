@@ -1,0 +1,50 @@
+# Entornos virtuales de Python
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# node_modules (proyectos Node.js, React, etc.)
+node_modules/
+
+# Archivos cache de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+*.bak
+*.old
+.DS_Store
+Thumbs.db
+
+# Archivos de base de datos temporales o locales
+*.sqlite3
+*.db
+
+# Archivos de configuración de entorno
+*.env.local
+.env.*
+
+# Archivos de compilación
+dist/
+build/
+*.egg-info/
+
+# IDEs (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Archivos de lock o dependencias
+package-lock.json
+yarn.lock
+poetry.lock
+Pipfile.lock
