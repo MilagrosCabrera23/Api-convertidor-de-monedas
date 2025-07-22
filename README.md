@@ -8,8 +8,6 @@ Esta es una API RESTful robusta y eficiente, construida con FastAPI y SQLAlchemy
 
 🔹Realizar conversiones: Calcular el valor de una cantidad de dinero de una moneda a otra.
 
-🔹Gestión de usuarios: Permitir el registro y la gestión básica de usuarios para un posible historial de conversiones o límites de uso.
-
 El objetivo principal es ofrecer un servicio de conversión de divisas fiable y fácil de integrar para aplicaciones de terceros, sitios web o herramientas internas.
 
 ## Características Clave
