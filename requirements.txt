@@ -1,7 +1,9 @@
-fastapi
-uvicorn
-sqlalchemy
-pydantic
-python-dotenv
-mysql-connector-python
-httpx
+fastapi==0.116.1
+uvicorn==0.35.0
+sqlalchemy==2.0.41
+pydantic==2.11.7
+python-dotenv==1.1.1
+mysql-connector==9.3.0
+pydantic_settings==2.10.1
+httpx==0.28.1
+requests==2.32.4
