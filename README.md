@@ -50,7 +50,7 @@ La aplicación sigue una Arquitectura en Capas para una óptima separación de r
 │   ├── models/             # Modelos de SQLAlchemy (tablas de DB)
 │   ├── schemas/            # Modelos Pydantic (validación de datos de entrada/salida)
 │   ├── services/           # Lógica de negocio y orquestación
-│   └── main.py             # Punto de entrada de la aplicación FastAPI
+└── main.py             # Punto de entrada de la aplicación FastAPI
 ├── venv/                   # Entorno virtual
 ├── .env                    # Variables de entorno
 ├── .gitignore              # Archivos a ignorar por Git
@@ -70,7 +70,7 @@ Un gestor de paquetes Python (preferiblemente pip o Poetry).
 ## 1. Clonar el repositorio:
 ```
 Bash
-git clone https://github.com/tu_usuario/tu_repo.git
+git clone https://github.com/MilagrosCabrera23/Api-convertidor-de-monedas.git
 cd tu-repo
 ```
 ### 2.Crear y activar un entorno virtual:
@@ -98,7 +98,7 @@ DATABASE_URL="sqlite:///./app/sql_app.db" # O tu URL de PostgreSQL/MySQL
 ### 5.CEjecutar la API
 ```
 Bash
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 La API estará disponible en http://127.0.0.1:8000.
 
